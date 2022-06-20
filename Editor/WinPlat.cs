@@ -71,8 +71,8 @@ namespace EP.U3D.EDITOR.PLAT
             {
                 SaveFile();
                 AssetDatabase.Refresh();
-                Helper.Log("[FILE@{0}] Save platform settings success.", Constants.PLAT_FILE_PATH);
-                Helper.ShowToast("Save platform settings success.");
+                Helper.Log("[FILE@{0}] Save platform success.", Constants.PLAT_FILE_PATH);
+                Helper.ShowToast("Save platform success.");
             }
         }
 
@@ -83,8 +83,8 @@ namespace EP.U3D.EDITOR.PLAT
                 SaveFile();
                 Helper.CopyFile(Constants.PLAT_FILE_PATH, Constants.PLAT_STEAMING_FILE);
                 AssetDatabase.SaveAssets();
-                Helper.Log("[FILE@{0}] Compile platform success.", Constants.PLAT_FILE_PATH);
-                Helper.ShowToast("Compile platform success.");
+                Helper.Log("[FILE@{0}] Apply platform success.", Constants.PLAT_FILE_PATH);
+                Helper.ShowToast("Apply platform success.");
             }
         }
     }
